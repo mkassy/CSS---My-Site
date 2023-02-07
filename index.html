@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maha Kasem</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="mk.png">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="top-container">
+        <!-- Use JavaScript to create a typewriter effect for heading level 2 -->
+        <script>
+            var i = 0;
+            var txt = 'Hi, my name is';
+            var speed = 50;
+            
+            function typeWriter() {
+              if (i < txt.length) {
+                document.getElementById("demo").innerHTML += txt.charAt(i);
+                i++;
+                setTimeout(typeWriter, speed);
+              }
+            }
+        </script>
+        <h2 id="demo"></h2>
+        <script>
+            typeWriter();
+        </script>
+        <h1>Maha Kasem,</h1>
+        <h2>a web developer.</h2>
+    </div>
+
+    <div class="middle-container">
+        <div class="profile">
+            <img class="profile-photo" src="images/business-photo-bw-cropped.png" alt="profile-photo">
+            <h2>About Me.</h2>
+            <p>Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla distinctio.</p>
+        </div>
+        <hr>
+        <div class="skills">
+        <h2>My Skills.</h2>
+            <div class="skill-row">
+            <img class="html" src="images/html-5.png" alt="html">
+            <img class="css" src="images/css-3.png" alt="css">
+            <img class="js" src="images/js.png" alt="javascript">
+            <img class="php" src="images/php.png" alt="php">
+            <img class="python" src="images/python.png" alt="python">
+            <h3>Lorem & Ipsum</h3>
+            <p class="code-skill-description">Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
+            </div>
+
+            <div class="skill-row">
+            <img class="" src="" alt="">
+            <h3>Lorem Ipsum Dolor</h3>
+            <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
+        </div>
+        </div>
+        <hr>
+        <div class="contact-me">
+            <h2 class="get-in-touch">Get In Touch</h2>
+            <h3>Lorem ipsum dolor sit amet, non elit.</h3>
+            <p class="contact-message">Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
+            <a class="btn" href="mailto:maha.kasem@protonmail.com">CONTACT ME</a>
+        </div>
+    </div>
+      
+      
+    <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/in/mahakasem">LinkedIn</a>
+        <a class="footer-link" href="https://github.com/mkassy">Github</a>
+        <a class="footer-link" href="https://www.mahakasem.com">Website</a>
+        <p class="copyright">© 2023 Maha Kasem.</p>
+    </div>
+      
+</body>
+</html>
